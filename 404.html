@@ -3,291 +3,18 @@
 <html lang="en" dir="ltr">
 
   <head>
-    <meta charset="UTF-8"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css">
-    <!-- <meta http-equiv="refresh" content="0;url=https://mbktechstudio.com/"> -->
-    <title>Redirecting...</title>    
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
-    <link rel="icon" type="image/x-icon" href="https://mbktech.xyz/Images/dgicon.svg">
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta charset="UTF-8"/>
+    <title>Redirecting...</title>   
+    <link rel="icon" type="image/x-icon" href="https://mbktech.xyz/Images/dgicon.svg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/intl-tel-input/17.0.13/css/intlTelInput.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+    <link rel="stylesheet" href="https://mbktech.xyz/Images/style.css" />
+    <!-- <meta http-equiv="refresh" content="0;url=https://mbktechstudio.com/"> -->
   </head>
 
   <!-- Ask For Cookie Consent-->
   <div id="cookie"></div>
-  
-  <style>
-    @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap");
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  text-decoration: none;
-  scroll-behavior: smooth;
-}
-a:visited {
-  color: #377a77;
-}
-a:hover {
-  color: #9eb5f7;
-}
-::-webkit-scrollbar {
-  width: 10px;
-}
-::-webkit-scrollbar-track {
-  background: #f1f1f1;
-}
-::-webkit-scrollbar-thumb {
-  background: #89f1ee;
-  border-radius: 12px;
-  transition: all 0.3s ease;
-}
-::-webkit-scrollbar-thumb:hover {
-  background: #4ea19d;
-}
-nav {
-  position: fixed;
-  width: 100%;
-  padding: 20px 0;
-  z-index: 998;
-  transition: all 0.3s ease;
-  font-family: "Ubuntu", sans-serif;
-}
-nav.sticky {
-  background: #377a77;
-  padding: 13px 0;
-}
-nav .navbar {
-  width: 90%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin: auto;
-}
-.logo {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.logo img {
-  width: 100%;
-  height: 100%;
-  float: left;
-}
-.logo .text {
-  margin-left: -260px;
-  float: left;
-}
-nav .navbar .logo a {
-  font-weight: 500;
-  font-size: 35px;
-  color: #377a77;
-}
-nav.sticky .navbar .logo a {
-  color: #fff;
-}
-nav .navbar .menu {
-  display: flex;
-  position: relative;
-}
-nav .navbar .menu li {
-  list-style: none;
-  margin: 0 8px;
-}
-.navbar .menu a {
-  font-size: 18px;
-  font-weight: 800;
-  color: #0e2431;
-  padding: 6px 0;
-  transition: all 0.4s ease;
-}
-.navbar .menu a:hover {
-  color: #377a77;
-}
-nav.sticky .menu a {
-  color: #fff;
-}
-nav.sticky .menu a:hover {
-  color: #0e2431;
-}
-.navbar .media-icons a {
-  color: #377a77;
-  font-size: 21px;
-  margin: 0 6px;
-}
-.media-icons a:hover {
-  color: grey;
-}
-nav.sticky .media-icons a {
-  color: #fff;
-}
-section {
-  padding-top: 40px;
-}
-section .content {
-  width: 80%;
-  margin: 0px auto;
-  font-family: "Poppins", sans-serif;
-}
-.about {
-  background: url("https://mbktech.xyz/Images/background.png");
-  height: 100%;
-}
-section .title {
-  display: flex;
-  justify-content: center;
-  margin-bottom: 40px;
-}
-section .title span {
-  color: #0e2431;
-  font-size: 30px;
-  font-weight: 600;
-  position: relative;
-  padding-bottom: 8px;
-}
-section .title span::before,
-section .title span::after {
-  content: "";
-  position: absolute;
-  height: 3px;
-  width: 100%;
-  background: #377a77;
-  left: 0;
-  bottom: 0;
-}
-section .title span::after {
-  bottom: -7px;
-  width: 70%;
-  left: 50%;
-  transform: translateX(-50%);
-}
-.about .left img {
-  height: 100px;
-  width: 400px;
-  object-fit: cover;
-  border-radius: 12px;
-}
-section .button {
-  margin: 5px 0;
-  align-items: center;
-  display: flex;
-  justify-content: center;
-}
-section .button button {
-  outline: none;
-  padding: 6px 12px;
-  border-radius: 4px;
-  font-size: 15px;
-  font-weight: 600;
-  background: #377a77;
-  color: #fff;
-  border: 2px solid transparent;
-  cursor: pointer;
-  transition: all 0.4s ease;
-}
-section .button button:hover {
-  border-color: #377a77;
-  background-color: #fff;
-  color: #377a77;
-}
-footer {
-  background: #377a77;
-  padding: 15px 0;
-  text-align: center;
-  font-family: "Poppins", sans-serif;
-}
-@media (max-width: 950px) {
-  footer {
-    margin-top: auto;
-  }
-}
-footer .text span {
-  font-size: 17px;
-  font-weight: 400;
-  color: #fff;
-}
-footer .text span a {
-  text-decoration: underline;
-  font-weight: 500;
-  color: #fff;
-}
-footer .text span a:hover {
-  text-decoration: none;
-  color: #c4c6ce;
-}
-@media (max-width: 750px) {
-  nav .navbar {
-    width: 90%;
-  }
-  nav .navbar .menu {
-    position: fixed;
-    left: -100%;
-    top: 0;
-    background: #0e2431;
-    height: 100vh;
-    max-width: 400px;
-    width: 100%;
-    padding-top: 60px;
-    flex-direction: column;
-    align-items: center;
-    transition: all 0.5s ease;
-  }
-  .navbar.active .menu {
-    left: 0;
-  }
-  nav .navbar .menu a {
-    font-size: 23px;
-    display: block;
-    color: #fff;
-    margin: 10px 0;
-  }
-  nav.sticky .menu a:hover {
-    color: #377a77;
-  }
-  nav .navbar .media-icons {
-    display: none;
-  }
-  nav .menu-btn,
-  .navbar .menu .cancel-btn {
-    display: block;
-  }
-  .contact .text {
-    width: 100%;
-  }
-}
-html,body {
-  height: 100%;
-  margin: 0;
-  display: flex;
-  flex-direction: column;
-}
-.about {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.emojji {
-  text-align: center;
-  margin-left: -150px;
-}
-.server1 {
-  position: absolute;
-  margin-left: -80px;
-  margin-top: 20px;
-}
-.server2 {
-  position: absolute;
-  margin-left: -25px;
-  margin-top: 20px;
-}
-.server3 {
-  position: absolute;
-  margin-left: 30px;
-  margin-top: 20px;
-} 
-p,h4,h3 {
-  text-align: center;
-}
-  </style>
   
   <header>   
     
@@ -309,13 +36,13 @@ p,h4,h3 {
 
         <div class="media-icons">
 
-          <a href="#"><i class="fab fa-facebook-f"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
-          <a href="#"><i class="fab fa-instagram"></i></a>
-          <a href="#"><i class="fab fa-github"></i></a>
-          <a href="#"><i class="fab fa-linkedin"></i></a>
-          <a href="#"><i class="fab fa-youtube"></i></a>
-          <a href="#"><i class="fab fa-discord"></i></a>
+          <a href="https://www.facebook.com/people/MBK-Tech-Studio/61559079077988/" target="_blank"><i class="fab fa-facebook-f"></i></a>
+          <a href="#"                                                                              ><i class="fab fa-twitter"></i></a>
+          <a href="https://instagram.com/mbktech.studios"                           target="_blank"><i class="fab fa-instagram"></i></a>
+          <a href="https://github.com/MIbnEKhalid"                                  target="_blank"><i class="fab fa-github"></i></a>
+          <a href="https://www.linkedin.com/in/muhammad-bin-khalid-89711b25b"       target="_blank"><i class="fab fa-linkedin"></i></a>
+          <a href="https://youtube.com/@MBKTechStudios"                             target="_blank"><i class="fab fa-youtube"></i></a>
+          <a href="https://discord.gg/MUAyAeckrM"                                   target="_blank"><i class="fab fa-discord"></i></a>
 
         </div>
 
@@ -342,7 +69,7 @@ p,h4,h3 {
         <div class="title"><span>Domain Changed</span></div>
 
         <p style="text-align: center;">
-            Note: The domain has been changed to mbktechstudio.com
+            Note: The domain has been changed to <a href="mbktechstudio.com">mbktechstudio.com</a> 
         </p>
         <h4>If you are not redirected automatically, follow this <a href="mbktechstudio.com">link</a></h4>
 
@@ -355,7 +82,7 @@ p,h4,h3 {
 
     <div class="text">
 
-      <span>Created By <a href="#">CodingLab</a> | &#169; 2024 All Rights Reserved | <a href="https://mbktechstudio.com/home/UserAgreement/" target="_blank" >Terms & Conditions</a></span>
+      <span>Created By <a href="https://github.com/MIbnEKhalid/" target="_blank">IbnEKhalid</a> | &#169; 2024 All Rights Reserved | <a href="https://mbktechstudio.com/UserAgreement/" target="_blank" >Terms & Conditions</a></span>
    
     </div>
   
